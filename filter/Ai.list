@@ -1,0 +1,135 @@
+# NAME: AI Rules for Quantumult X
+# MAINTAINER: nihAoliu
+# SOURCE: https://ddgksf2013.top/filter/Ai.yaml
+# ORIGINAL AUTHOR: https://t.me/ddgksf2021
+# ORIGINAL UPDATED: 2026-08-18
+# COPIED: 2026-09-30
+# Use force-policy to select your existing AI policy in Quantumult X.
+# This is a manually maintained copy, not an automatically synced mirror.
+
+# > Ai general rules
+host, api.statsig.com, proxy
+host, browser-intake-datadoghq.com, proxy
+host, static.cloudflareinsights.com, proxy
+host-suffix, algolia.net, proxy
+host-suffix, auth0.com, proxy
+host-suffix, cloudflare.com, proxy
+host-suffix, arkoselabs.com, proxy
+host-suffix, statsigapi.net, proxy
+host-suffix, featuregates.org, proxy
+host-suffix, identrust.com, proxy
+host-suffix, intercom.io, proxy
+host-suffix, intercomcdn.com, proxy
+host-suffix, launchdarkly.com, proxy
+host-suffix, segment.io, proxy
+host-suffix, amazonaws.com, proxy
+host-suffix, wp.com, proxy
+host-suffix, sentry.io, proxy
+host-suffix, stripe.com, proxy
+
+# > Anthropic/Claude
+host, cdn.usefathom.com, proxy
+host-suffix, anthropic.com, proxy
+host-suffix, claude.ai, proxy
+host-suffix, claude.com, proxy
+host-suffix, claudeusercontent.com, proxy
+
+# > Cursor
+host-suffix, cursor.sh, proxy
+host-suffix, cursor.com, proxy
+host-suffix, cursor-cdn.com, proxy
+host-suffix, cursorapi.com, proxy
+host-suffix, cursorvm.com, proxy
+
+# > Dify AI
+host-suffix, dify.ai, proxy
+
+# > Google AI (Gemini/Bard)
+host, ai.google.dev, proxy
+host, makersuite.google.com, proxy
+host-suffix, gemini.google.com, proxy
+host-suffix, apis.google.com, proxy
+host-suffix, clients6.google.com, proxy
+host-suffix, clients4.google.com, proxy
+host-suffix, deepmind.com, proxy
+host-suffix, deepmind.google, proxy
+host-suffix, generativeai.google, proxy
+host-suffix, colab.google.com, proxy
+host-suffix, colab.research.google.com, proxy
+host-suffix, developerprofiles.google.com, proxy
+host-suffix, googleusercontent.com, proxy
+host-suffix, googleapis.com, proxy
+host-suffix, proactivebackend-pa.googleapis.com, proxy
+
+# > JetBrains AI
+host-suffix, grazie.ai, proxy
+
+# > Meta
+host-suffix, meta.ai, proxy
+host-suffix, meta.com, proxy
+
+
+# > Notebooklm
+host-suffix, notebooklm.google.com, proxy
+host-suffix, notebooklm.google, proxy
+
+
+# > Microsoft Copilot
+host, api.msn.com, proxy
+host, assets.msn.com, proxy
+host, copilot.microsoft.com, proxy
+host, gateway.bingviz.microsoft.net, proxy
+host, gateway.bingviz.microsoftapp.net, proxy
+host, in.appcenter.ms, proxy
+host, location.microsoft.com, proxy
+host, odc.officeapps.live.com, proxy
+host, r.bing.com, proxy
+host, self.events.data.microsoft.com, proxy
+host, services.bingapis.com, proxy
+host, sydney.bing.com, proxy
+host, www.bing.com, proxy
+host-suffix, api.microsoftapp.net, proxy
+host-suffix, bing-shopping.microsoft-falcon.io, proxy
+host-suffix, edgeservices.bing.com, proxy
+
+# > Midjourney
+host-suffix, midjourney.com, proxy
+
+# > OpenAI/ChatGPT
+host, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, proxy
+host, openaicomproductionae4b.blob.core.windows.net, proxy
+host, production-openaicom-storage.azureedge.net, proxy
+host-suffix, ai.com, proxy
+host-suffix, chatgpt.com, proxy
+host-suffix, livekit.cloud, proxy
+host-suffix, oaistatic.com, proxy
+host-suffix, oaiusercontent.com, proxy
+host-suffix, openai.com, proxy
+host-suffix, azureedge.net, proxy
+host-suffix, imgix.net, proxy
+
+# > Perplexity
+host, pplx-res.cloudinary.com, proxy
+host-suffix, perplexity.ai, proxy
+host-suffix, pplx.ai, proxy
+host-suffix, perplexity.com, proxy
+
+# > Poe
+host-suffix, poe.com, proxy
+host-suffix, poecdn.net, proxy
+
+# > xAI/Grok
+host-suffix, x.ai, proxy
+host-suffix, grok.com, proxy
+
+# > Mistral AI
+host-suffix, mistral.ai, proxy
+
+# > Hugging Face
+host-suffix, huggingface.co, proxy
+host-suffix, hf.co, proxy
+host-suffix, hf.space, proxy
+
+# > Manus
+host-suffix, manus.im, proxy
+host-suffix, manuscdn.com, proxy
