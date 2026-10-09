@@ -1,0 +1,14 @@
+# NAME: Claude Rules for Quantumult X
+# MAINTAINER: nihAoliu
+# SOURCE: https://ddgksf2013.top/filter/Ai.yaml
+# ORIGINAL AUTHOR: https://t.me/ddgksf2021
+# ORIGINAL UPDATED: 2026-08-18
+# SPLIT: 2026-10-09
+# Use force-policy=Claude with an existing Claude policy group.
+# Only Claude/Anthropic-specific domains; shared dependencies stay in Ai-Other.list.
+# Manually maintained. The original Ai.list remains available for compatibility.
+
+host-suffix, anthropic.com, proxy
+host-suffix, claude.ai, proxy
+host-suffix, claude.com, proxy
+host-suffix, claudeusercontent.com, proxy
